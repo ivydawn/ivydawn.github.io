@@ -14,21 +14,29 @@ html{
 	-o-text-size-adjust: 100%;
 	text-size-adjust: 100%;
 	background-color: #333333;
+	height: 100%;
 }
 
 html, body{
 	font-family: font-family: 'Fenix', serif;
 	font-size: 13px;
 	margin: 0;
-	padding: .5rem;
+	padding: 0;
 	width: 100%;
 	color: #FFF;
+	min-height: 100%;
+	position: relative;
+}
+
+body{
+	padding-bottom: 6em;
 }
 
 .main,
 .copyright{
 	width: 90%;
 	margin: 1rem auto;
+	overflow: hidden;
 }
 
 h1{
@@ -53,6 +61,9 @@ img{
 		text-align: center;
 		padding: .5rem 5% 0;
 		overflow: hidden;
+		position: absolute;
+		bottom: 0;
+		width: 100%;
 	}
 
 .hide-text {
@@ -172,10 +183,6 @@ box-shadow: inset 0 0 3px rgba(0,0,0,0.3);
 
 	border-top: 0;
 	
-	}
-	html, body{
-		margin:0;
-		padding:0;
 	}
 	
 	header{
