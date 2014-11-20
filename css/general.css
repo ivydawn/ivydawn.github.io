@@ -1,0 +1,315 @@
+@charset "UTF-8";
+
+
+@-moz-viewport { width: device-width; scale: 1;}
+@-ms-viewport { width: device-width; scale: 1;}
+@-webkit-viewport { width: device-width; scale: 1;}
+@-o-viewport { width: device-width; scale: 1;}
+@viewport { width: device-width; scale: 1;}
+
+html{
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	-o-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+	background-color: #333333;
+}
+
+html, body{
+	font-family: font-family: 'Fenix', serif;
+	font-size: 13px;
+	margin: 0;
+	padding: .5rem;
+	width: 100%;
+	color: #FFF;
+}
+
+.main,
+.copyright{
+	width: 90%;
+	margin: 1rem auto;
+}
+
+h1{
+	text-align: center;
+}
+
+img{
+	width: 100%;
+}
+
+
+	.copyright{
+		width: auto;
+		margin: 1rem;
+		color: #fff;		
+	}
+	
+	footer{
+		clear: both;
+		background-color: #99CCCC;
+		height: 5rem;
+		text-align: center;
+		padding: .5rem 5% 0;
+		overflow: hidden;
+	}
+
+.hide-text {
+text-indent: 100%;
+white-space: nowrap;
+overflow: hidden;
+}
+
+
+.nav-btn,
+.nav-btn:link,
+.nav-btn:visited{
+	display: block;
+	height: 40px;
+	width: 40px;
+	position: absolute;
+	top: 10px;	
+	right: 5%;
+		
+	background: #99CCCC url('../images/nav-icon.svg') no-repeat center center;
+}
+
+.nav-btn:hover,
+.nav-btn:focus,
+.nav-btn:active{
+	background-color: #ccc;
+}
+
+.nav-btn[data-state="active"] {
+	background: #ccc url('../images/nav-close.svg') no-repeat center center;
+}
+
+.nav a, 
+.nav a:link,
+.nav a:visited{
+	display: block;
+	padding: 1rem;
+	text-align:center;
+	color: #FFF;
+	text-decoration: none;
+	background-color: #99CCCC;
+	border-top: 1px solid #fff;	
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active{
+	background-color: #336666;
+}
+
+
+	.nav-top{
+		max-height: 0;
+		-moz-transition: all 250ms linear;
+		-o-transition: all 250ms linear;
+		-webkit-transition: all 250ms linear;
+		transition: all 250ms linear;
+		overflow:hidden;
+	}
+
+	.nav-top[data-state="expanded"]{
+		max-height: 14rem;
+	}
+	
+.thumbnail {
+    float: left;
+    width: 200px;
+    height: 150px;
+    margin: 5px;	
+}
+	
+.flexslider{
+	max-width: 600px;
+	margin: 50px auto;
+	border-color: #99CCCC;	
+}
+
+.flex-control-paging li a {
+width: 11px;
+height: 11px;
+display: block;
+background: #666;
+background: #FFF;
+cursor: pointer;
+text-indent: -9999px;
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+-o-border-radius: 20px;
+border-radius: 20px;
+-webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.3);
+-moz-box-shadow: inset 0 0 3px rgba(0,0,0,0.3);
+-o-box-shadow: inset 0 0 3px rgba(0,0,0,0.3);
+box-shadow: inset 0 0 3px rgba(0,0,0,0.3);
+}
+
+	
+
+	
+@media only screen and (min-width: 25em){
+	.nav{
+		overflow: auto;
+	}
+	
+	.nav li{
+		float: left;
+		width: 33.33%;
+	}
+	
+	.nav-btn,
+	.nav-btn:link,
+	.nav-btn:visited{
+		display: none;
+	}
+	.nav a, 
+	.nav a:link,
+	.nav a:visited{
+
+	border-top: 0;
+	
+	}
+	html, body{
+		margin:0;
+		padding:0;
+	}
+	
+	header{
+		background-color: #99CCCC;
+		margin:0;
+		padding: 0;
+	}
+	
+	.nav-top{
+		max-height: 5rem;
+	}
+	
+	footer{
+		clear: both;
+		background-color: #99CCCC;
+		height: 5rem;
+		text-align: center;
+		padding: 1.5rem 5% 0;
+		overflow: hidden;
+		
+	}
+	
+		.copyright{
+		width: auto;
+		margin: 1rem;
+		color: #fff;
+		
+	}
+	
+	.map{
+	width:60%
+}
+}
+
+@media only screen and (min-width: 35em){
+	.nav-top{
+		max-width: 600px;
+		margin: 0 auto;
+	}
+	
+	
+	
+	header{
+		overflow: auto;
+	}
+	
+	footer{
+		clear: both;
+		background-color: #99CCCC;
+		height: 5rem;
+		text-align: center;
+		padding: 1.5rem 5% 0;
+		overflow: hidden;
+		
+	}
+	
+		.copyright{
+		width: auto;
+		margin: 1rem;
+		color: #fff;
+		
+	}
+	
+	.map{
+	width:60%
+}
+
+	.main{
+		text-align: center;
+	}
+	
+	.col{
+		width:45%;
+		text-align:left;
+	}
+	
+	.left{
+		float:left;
+	}
+	
+	.right{
+		float:right;
+	}
+	
+
+}
+
+@media only screen and (min-width: 50em){
+	
+
+
+.map{
+	width:50%
+	
+}
+
+	.main{
+		text-align: center;
+		max-width: 68.75rem;
+	}
+}
+
+
+@media only screen and (min-width: 75em){
+
+	
+	footer{
+		clear: both;
+		background-color: #99CCCC;
+		height: 5rem;
+		text-align: center;
+		padding: 1.5rem 5% 0;
+		overflow: hidden;
+	
+	}
+
+	.copyright{
+		width: auto;
+		margin: 1rem;
+		
+		
+	}
+	
+
+}
+
+
+@media only screen and (min-width: 100em){
+	html{
+		font-size: 1.5em;
+	}
+	
+
+
+}
+
+

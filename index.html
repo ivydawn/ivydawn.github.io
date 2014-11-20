@@ -1,13 +1,81 @@
 <!doctype html>
 <html>
-<head>
-<meta charset="UTF-8">
-<title>Ivy's Websitet</title>
-</head>
+	<head>
+		<meta charset="UTF-8">
+		<title>Ivy LaBossiere</title>
+		<link href="css/reset.css" rel="stylesheet">
+		<link href="jquery-slider/flexslider.css" rel="stylesheet">
+		<link rel="icon" type="image/png" href="images/favicon.png" />
+		
+		<link href="css/general.css" rel="stylesheet">
+		<link href='http://fonts.googleapis.com/css?family=Fenix' rel='stylesheet' type='text/css'>
+		<meta name="handheldfriendly" content="true">
+		<meta name="mobileoptimized" content="240">
+		<meta name="viewport" content="width=device-width,initial-scale=1" >
+		
+		<meta name="description" content="International Kafia Coffee is a locally run coffee roastery in Ottawa">
+		<meta name="keywords" content="local, fresh, coffee, coffeebeans, roastery, roast, delicious.">
+		<meta name="copyright" content="International Kafia Coffee 2013">
+		<meta name="handheldfriendly" content="true">
+		<meta name="mobileoptimized" content="240">
+	</head>
 
-<body>
+	<body class="home"> 
+		<header>
+			
+			<a href="#nav" class="nav-btn hide-text">Navigation</a>
+			<nav class="nav nav-top" data-state="collapsed">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="art.html">Art Work</a></li>
+				</ul>
+			</nav>
+			
 
-<h1>Ivy's Website!</h1>
 
-</body>
+		</header>
+		
+
+		<main class="main">
+			<!--Start of slider-->
+			<div class="flexslider">
+				<ul class="slides">
+				<li>
+				<img src="http://placehold.it/350x150" alt="Placeholder">
+				</li>
+				<li>
+				<img src="http://placehold.it/350x150" alt="Placeholder">
+				</li>
+				
+				<li>
+				<img src="http://placehold.it/350x150" alt="Placeholder">
+				</li>
+				</ul>
+			</div>
+			<!--End of slider-->
+			
+	<H1>Welcome to my porfolio website!</H1>
+	
+</main>
+
+		<footer>
+			
+			<p class="copyright">Ivy LaBossiere 613 809 6101 ivy.labossiere@hotmail.ca</p>
+		</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script src="jquery-slider/jquery.flexslider-min.js"></script>
+	<script type="text/javascript" charset="utf-8">
+  $(window).load(function() {
+    $('.flexslider').flexslider({ animation: "slide", 
+	slideshowspeed: 2000, 
+	smoothHeight: true,
+	slideshow: true,
+	});
+  });
+</script>
+	<script src="js/nav.js"></script>
+	</body>
 </html>
+
