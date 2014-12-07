@@ -5,6 +5,7 @@
 		<title>Art Work</title>
 		<link href="css/reset.css" rel="stylesheet">
 		<link href="css/general.css" rel="stylesheet">
+		<link rel="stylesheet" href="swipebox/swipebox.css">
 		<link rel="icon" type="image/png" href="images/favicon.png" />
 		<meta name="handheldfriendly" content="true">
 		<meta name="mobileoptimized" content="240">
@@ -27,19 +28,20 @@
 		<main class="main">
 		
 			<h1>Portfolio</h1>
+
 			
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-		
-			<a href="piece-1.html"><img src="http://placehold.it/350x150" img class="thumbnail" alt="Placeholder"></a>
-			<img src="http://placehold.it/350x150" img class="thumbnail" alt="Placeholder">
-			<img src="http://placehold.it/350x150" img class="thumbnail" alt="Placeholder">
-			<img src="http://placehold.it/350x150" img class="thumbnail" alt="Placeholder">
-			<img src="http://placehold.it/350x150" img class="thumbnail" alt="Placeholder">
-			<img src="http://placehold.it/350x150" img class="thumbnail" alt="Placeholder">
-			<img src="http://placehold.it/350x150" img class="thumbnail" alt="Placeholder">
-			<img src="http://placehold.it/350x150" img class="thumbnail" alt="Placeholder">
-			
-			
+			<ul class="image-list">
+			<li><a class= "swipebox" title="Apple Gift Card Packaging Templates" href="images/big/big1.png"><img src="images/thumb/thumb1.png" img class="thumbnail" alt="Apple Gift Card Packaging Templates"></a></li>
+			<li><a class= "swipebox" title="Apple gift card packaging" href="images/big/big2.png"><img src="images/thumb/thumb2.png" img class="thumbnail" alt="Apple gift card packaging"></a></li>
+			<li><a class= "swipebox" title="Termintor DVD cover recast and redesign" href="images/big/big3.png"><img src="images/thumb/thumb3.png" img class="thumbnail" alt="Termintor DVD cover recast and redesign"></a></li>
+			<li><a class= "swipebox" title="Ransom Letter Poster Design" href="images/big/big4.png"><img src="images/thumb/thumb4.png" img class="thumbnail" alt="Ransom Letter Poster Design"></a></li>
+			<li><a class= "swipebox" title="Tiffany Ad Campaign" href="images/big/big5.png"><img src="images/thumb/thumb5.png" img class="thumbnail" alt="Tiffany Ad Campaign"></a></li>
+			<li><a class= "swipebox" title="Pencil Drawing" href="images/thumb/thumb6.jpg"><img src="images/thumb/thumb6.jpg" img class="thumbnail" alt="Pencil Drawing"></a></li>
+			<li><a class= "swipebox" title="Future Shop Mobile Website Mockup" href="images/thumb/thumb7.png"><img src="images/thumb/thumb7.png" img class="thumbnail" alt="Future Shop Mobile Website Mockup"></a></li>
+			<li><a class= "swipebox" title="Let It Be- Acrylic Paiting" href="images/thumb/thumb8.jpg"><img src="images/thumb/thumb8.jpg" img class="thumbnail" alt="Acrylic painting of The Beatles"></a></li>
+			<li><a class= "swipebox" title="Graduation- Acrylic Painting" href="images/thumb/thumb9.jpg"><img src="images/thumb/thumb9.jpg" img class="thumbnail" alt="Graduation- Acrylic Painting of Kanyes album cover"></a></li>
+			<li><a class= "swipebox" title="JayZ- Acrylic Painting" href="images/big/big10.jpg"><img src="images/thumb/thumb10.jpg" img class="thumbnail" alt="JayZ- Acrylic Painting"></a></li>
+		</ul>
 		</main>
  
 		<footer>
@@ -47,6 +49,14 @@
 			<p class="copyright">Ivy LaBossiere 613 809 6101 ivy.labossiere@hotmail.ca</p>
 		</footer>
 	<script src="js/nav.js"></script>
+	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="swipebox/jquery.swipebox.js"></script>
+	<script type="text/javascript">
+	jQuery(function($) {
+		$(".swipebox").swipebox();
+	});
+	</script>
 	</body>
 </html>
 
