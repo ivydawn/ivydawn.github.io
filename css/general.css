@@ -39,6 +39,17 @@ body{
 	overflow: hidden;
 }
 
+.description{
+	font-family: font-family: "Fenix", serif;
+	font-size: 13px;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	color: #FFF;
+	min-height: 100%;
+	position: relative;
+}
+
 h1{
 	text-align: center;
 }
@@ -47,6 +58,9 @@ img{
 	width: 100%;
 }
 
+.swipebox{
+ background-color:#000;	
+}
 	.copyright{
 		width: auto;
 		margin: 1rem;
@@ -60,7 +74,6 @@ img{
 		text-align: center;
 		padding: .5rem 5% 0;
 		overflow: hidden;
-		position: absolute;
 		bottom: 0;
 		width: 100%;
 	}
